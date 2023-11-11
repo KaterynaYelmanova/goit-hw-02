@@ -36,7 +36,10 @@ color: var(--SLATE, #434455);
 }
 .menu-link:hover, 
 .menu-link:focus, .menu-adress-link:hover, .menu-adress-link:focus {
-    color: #ff7f50;
+    color: #404bbf;
+}
+.main-adress {
+    font-style: normal;
 }
 .menu-adress-link {
         /* Body */
@@ -61,11 +64,9 @@ color: var(--SLATE, #434455);
         color: var(--WHITE, #FFF);
 }
 .button {
-    border-radius: 4px;
-        background: var(--IRIS, #4D5AE5);
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         color: var(--WHITE, #FFF);
             /* Button Text */
+            background: #4D5AE5;
             font-size: 16px;
             font-weight: 500;
             line-height: 1.5;
@@ -161,7 +162,8 @@ color: var(--SLATE, #434455);
 }
 .logo-footer {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: "Raleway",
+            sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
